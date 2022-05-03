@@ -41,6 +41,7 @@ header h1{ /*DA SUEGUNDA PAGINA*/
     font-family: 'pixel', cursive;
     text-align: center;
     line-height: 1em;
+    text-shadow: 3px 3px rgba(0, 0, 0, 0.5);
 }
 
 header h1 span{
@@ -137,3 +138,13 @@ main p{ /*DA SEGUNDA PAGINA*/
 main strong{
     color: var(--cor1)
 }
+
+.p3ig{
+    text-decoration: none;
+    color: var(--cor1);
+}
+
+.p3ig:hover{
+    color: var(--cor4);
+}
+

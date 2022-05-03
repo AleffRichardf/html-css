@@ -1,0 +1,139 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@font-face {
+    font-family: 'pixel';
+    src: url('../fontes/dogica.ttf') format('truetype');
+    font-weight: normal;
+}
+
+*{
+    margin: 0px;
+    padding-top: 10px;
+}
+
+:root{
+    --cor0: #F24C49;
+    --cor1: #F00400;
+    --cor2: #BD0300;
+    --cor3: #700200;
+    --cor4: #702322;    
+
+    --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
+    --fonte-destaque: 'Bebas Neue', cursive;
+    --fonte-android: 'pixel', cursive;
+}
+
+body{
+    background-color: rgb(31, 31, 31);
+    font-family: var(--fonte-padrao);
+}
+
+header img{
+    width: 65%;
+    display: block;
+    block-size: auto;
+}
+
+header h1{ /*DA SUEGUNDA PAGINA*/
+    color: white;
+    font-family: 'pixel', cursive;
+    text-align: center;
+    line-height: 1em;
+}
+
+header h1 span{
+    color: var(--cor1);
+}
+
+.imagem{
+    margin: auto;
+}
+
+nav{
+    text-align: center;
+    margin: 20px;
+    padding: 25px 20px 30px 20px; 
+    background-color: rgba(14, 14, 14, 0.308);
+    line-height: 3em;
+    border-radius: 25px;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.507);
+}
+
+nav a{
+    padding: 20px;
+    color: white;
+    text-decoration: none;
+    font-family: 'pixel', cursive;
+    transition-duration: 0.5s;
+}
+
+nav a:hover{
+    background-color: #700200c2;
+    border-radius: 20px;
+}
+
+nav img{ /*DA SEGUNDA PAGINA*/
+    width: 50%;
+}
+
+.perfil{
+    min-width: 250px;
+    max-width: 500px;
+}
+
+footer{
+    background-color: rgba(14, 14, 14, 0.63);
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin: auto;
+}
+
+footer a{
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    font-size: 1em;
+    padding: 5px;
+    transition-duration: 0.2s;
+}
+
+footer a:hover{
+    color: var(--cor0);
+}
+
+main{
+    background-color: rgba(14, 14, 14, 0.63);
+    padding: 20px 20px;
+    margin: 50px;
+    border-radius: 20px 10px;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.836)
+}
+
+main img{
+    transition-duration: 0.5s;
+}
+
+main img:hover{
+    background-color: var(--cor1);
+    padding: 5px;
+    margin: 5px;
+    border-radius: 20px;
+}
+
+main p{ /*DA SEGUNDA PAGINA*/
+    color: white;
+    text-align: justify;
+    font-family: 'pixel', cursive;
+    line-height: 1.5em;
+}
+
+.sobre{
+    text-align: center;
+}
+
+main strong{
+    color: var(--cor1)
+}

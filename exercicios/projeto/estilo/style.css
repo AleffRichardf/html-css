@@ -148,3 +148,48 @@ main strong{
     color: var(--cor4);
 }
 
+.fotoa{
+    width: 325px;
+    height: 400px;
+}
+
+div{
+    width: 300px;
+    height: 400px;
+}
+
+nav div{
+    display: inline-block;
+    border: 3px solid rgba(0, 0, 0, 0.356);
+    width: 300px;
+    height: 350px;
+    box-shadow: 5px 3px rgba(0, 0, 0, 0.342);
+}
+
+#animes1{
+    background-image: url('../imagens/naruto-pre.png');
+    transition-duration: 0.5s;
+}
+
+#animes2{
+    background-image: url('../imagens/tokyo-pre.png');
+    transition-duration: 0.5s;
+}
+
+#animes3{
+    background-image: url('../imagens/jujutsu-pre.png');
+    transition-duration: 0.5s;
+}
+
+#animes1:hover{
+    background-image: url('../imagens/naruto-bra.png');
+}
+
+#animes2:hover{
+    background-image: url('../imagens/tokyo-bra.png');
+}
+
+#animes3:hover{
+    background-image: url('../imagens/jujutsu-bra.png');
+}
+
